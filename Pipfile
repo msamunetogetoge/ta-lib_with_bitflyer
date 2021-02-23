@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pybitflyer = "*"
+ta-lib = {path = "./TA_Lib-0.4.19-cp38-cp38-win_amd64.whl"}
+pandas = "*"
+django = "==3.1.1"
+plotly = "==4.14.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
